@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#quiz{
+    height: 450px;
+    width: 700px;
+    border: 0.5px solid black;
+    margin: auto;
+    background-color:rgba(240, 235, 235);
+    border-radius: 20px;
+    
+}
+
+/* ol li {
+    list-style-type: none;
+} */
+
+.quiz-section{
+    margin-top: 100px;
+}
+
+#question{
+    margin-left: 25px;
+    margin-bottom:20px;
+    margin-top: 30px;
+}
+.answer{
+    text-align: center;
+    margin-left: 10px;
+    accent-color: rgb(3, 42, 28);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+li {
+    border: 1px black solid;
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 3px;
+
+}
+
+#btn{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 60px;
+    padding: 5px;
+    border: 1px;
+    border-radius: 10px;
+    size: 30px;
+    cursor: pointer;
+    background-color: rgb(164, 211, 194);
+
+
+}
+
+body {
+    background: linear-gradient(90deg, #d0d4d4, #0e91b6)
+}
+
+#heading{
+    margin-left: 280px
+    ;
+}
+
+/* #styling {
+    margin: auto;
+
+} */
+
+/* .quiz {
+   text-align: center;
+    
+
+} */
